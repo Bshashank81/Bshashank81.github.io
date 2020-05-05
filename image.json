@@ -1,0 +1,52 @@
+var gallery={
+	"images": [
+			{	
+				"src" : "./media/img1.jpg",
+				"width" : "200px",
+				"height" : "200px",
+				"date" : "2020-05-04",
+				"name" : "mountains view",
+				"alt" : "mountains view"
+			},
+			{
+				"src" : "./media/img2.jpeg",
+				"width" : "200px",
+				"height" : "200px",
+				"date" : "2020-05-04",
+				"name" : "river view",
+				"alt" : "river view"
+			},
+			{
+				"src" : "./media/img3.jpeg",
+				"width" : "200px",
+				"height" : "200px",
+				"date" : "2020-05-04",
+				"name" : "boats",
+				"alt" : "boats"
+			},
+			{
+				"src" : "./media/img4.jpeg",
+				"width" : "200px",
+				"height" : "200px",
+				"date" : "2020-05-04",
+				"name" : "sunset",
+				"alt" : "sunset",
+			},
+			{
+				"src" : "./media/img5.jpeg",
+				"width" : "200px",
+				"height" : "200px",
+				"date" : "2020-05-04",
+				"name" : "lake bridge",
+				"alt" : "lake bridge"
+			},
+			{
+				"src" : "./media/img6.jpg",
+				"width" : "200px",
+				"height" : "200px",
+				"date" : "2020-05-04",
+				"name" : "fields",
+				"alt" : "fields"
+			}
+	]
+};

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/tabs.css">
+	<link rel="stylesheet" type="text/css" href="styles/contact.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html" class="active" id="selected">Contact</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="admin.html">Gallery-admin</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="contact-details" id="content">
+		<h2>Contact details of me</h2>
+		
+		<form action="#" onsubmit="return checkValidation();">
+			<table>
+				<tbody>
+					<tr>
+						<td>First Name<sup>*</sup></td>
+						<!-- <td>:</td> -->
+						<td><input type="text" name="firstname" placeholder="enter first name" id="firstName" required></td>
+					</tr>
+					<tr>
+						<td>Last Name<sup>*</sup></td>
+						<!-- <td>:</td> -->
+						<td><input type="text" name="lastname" placeholder="enter last name" id="lastName" required></td>
+					</tr>
+					<tr>
+						<td>Phone<sup>*</sup></td>
+						<!-- <td>:</td> -->
+						<td><input type="text" name="phone" placeholder="enter phone number" id="phoneNumber"  required></td>
+					</tr>
+					<tr>
+						<td>Email<sup>*</sup></td>
+						<!-- <td>:</td> -->
+						<td><input type="text" name="email" placeholder="enter email" id="email" required></td>
+					</tr>
+					<tr>
+						<td><input type="submit" value="Submit"></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+	<script type="text/javascript" src="scripts/validation.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+nav ul{
+	list-style: none;
+	padding: 10px;
+	margin-top: : 30px;
+	background-color: #f1f1f1;
+}
+
+nav li{
+	display: inline;
+	border: none;
+	
+	margin: 0 0px 0 0;
+	font-size: 30px;
+}
+
+nav li a{
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+
+
+#content{
+	border: 1px solid #C5C7C8;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	background-color:  #D0EFF5;
+}
+
+#selected {
+    padding-bottom: 1px; 
+    background: #B1BFC2;
+}

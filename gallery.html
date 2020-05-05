@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/tabs.css">
+	<link rel="stylesheet" type="text/css" href="styles/gallery.css">
+</head>
+<script type="text/javascript" src="image.json"></script>
+<body onload="jsonImages();">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="gallery.html" class="active" id="selected">Gallery</a></li>
+				<li><a href="admin.html">Gallery-admin</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div id="content">
+		<div id="gallery">
+
+		</div>
+		<script type="text/javascript" src="./scripts/gallery.js"></script>
+	</div>
+</body>
+</html>
