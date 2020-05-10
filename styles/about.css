@@ -1,0 +1,39 @@
+body{
+  background-color:  #D0EFF5;
+}
+
+#about{
+  text-align: center;
+}
+
+.title{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.abt{
+  font-size: 30px;
+}
+
+.contact-buttons ul{
+  list-style: none;
+}
+
+.contact-buttons li {
+  display: inline;
+  
+  text-decoration: none;
+
+}
+
+.contact-buttons li a{
+  text-decoration: none;
+  font-size: 20px;
+  background: #8DC3BD;
+  padding: 10px;
+}
+
+.skills,.hobbies{
+  text-align: left;
+  font-size: 20px;
+}
